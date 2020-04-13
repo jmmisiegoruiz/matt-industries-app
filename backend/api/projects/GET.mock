@@ -1,11 +1,10 @@
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-{
-   "projects": [
-     {
-       "name": "project_1",
-       "description": "awesome project",
-     }
-   ],
-}
+[
+  {
+    "name": "project_1",
+    "description": "awesome project"
+  }
+]
+

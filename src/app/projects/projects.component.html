@@ -1,1 +1,5 @@
 <p>projects works!</p>
+
+<span *ngFor="let project of projects | async">
+  {{project.name}}
+</span>
